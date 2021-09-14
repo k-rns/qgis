@@ -1,3 +1,7 @@
+# Cartography principles
+
+
+
 Symbology in qgis lay-out itself
 
 Right click on layer -> properties -> symbology
