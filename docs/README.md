@@ -1,9 +1,9 @@
-This is a start
+This is a start  
 
-01_intro
-02_folder_hierarchy
-03_data_ingest
-04_data_search
-05_cartography
-06_map_templates
-07_pictures
+01_intro.md
+02_folder_hierarchy.md  
+03_data_ingest.md  
+04_data_search.md  
+05_cartography.md  
+06_map_templates.md  
+07_pictures.md  
