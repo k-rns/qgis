@@ -1,6 +1,9 @@
 This is a start  
 
-01_intro.md
+[team@carpentries.org](mailto:team@carpentries.org)
+- Twitter: [@thecarpentries](https://twitter.com/thecarpentries)
+
+[introduction](01_intro.md)
 02_folder_hierarchy.md  
 03_data_ingest.md  
 04_data_search.md  
