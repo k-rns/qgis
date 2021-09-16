@@ -44,6 +44,38 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 
+
+# -- Options for Latex output -----------------------------------------------------------
+# -- From: https://www.sphinx-doc.org/en/1.0/config.html#options-for-latex-output -------
+# https://sphinxguide.readthedocs.io/en/latest/sphinx_basics/settings.html
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title, author, documentclass [howto, manual, or own class]).
+latex_documents = [(master_doc, 'BCO-DMO documentation.tex', 'SOPs for Data managers','Karen Soenen', 'manual')]
+latex_engine = 'pdflatex'
+
+
+ 
+# -- Options for LaTeX output ------------------------------------------------
+ 
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+#'papersize': 'letterpaper',
+ 
+# The font size ('10pt', '11pt' or '12pt').
+#'pointsize': '10pt',
+ 
+# Additional stuff for the LaTeX preamble.
+'preamble': '''
+\\hypersetup{unicode=true}
+\\usepackage{CJKutf8}
+\\AtBeginDocument{\\begin{CJK}{UTF8}{gbsn}}
+\\AtEndDocument{\\end{CJK}}
+''',
+}
+
+
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
