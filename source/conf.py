@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'QGIS Quickguide for cruise planning'
+project = 'QGIS Quickguide'
 copyright = '2021, Karen Soenen'
 author = 'Karen Soenen'
 
@@ -51,7 +51,7 @@ exclude_patterns = []
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto, manual, or own class]).
-latex_documents = [(master_doc, 'BCO-DMO documentation.tex', 'SOPs for Data managers','Karen Soenen', 'manual')]
+latex_documents = [(master_doc, 'QGIS.tex', 'Hands-on QGIS Quickguide for Cruise Planning','Karen Soenen', 'manual')]
 latex_engine = 'pdflatex'
 
 

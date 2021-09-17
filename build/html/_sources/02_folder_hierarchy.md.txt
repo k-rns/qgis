@@ -7,7 +7,7 @@ The data in this project is aggregated from 4 different projects that have been 
 * DRIFT4: 2007. Side scan sonar data and multibeam data has been acquired by shipboard. Dredges were taken during this cruise
 * MV: MR1 is a Side scan system towed on its own right at the surface (under thermocline or something).EM122 is shipboard and should be imported too (second opinion EM122 does not really matter, Sept 8, 2021). Pictures were taking by using a tow system and 
 * AL15080: Alucia cruise in 2015. Pictures and samples have been taken with the submersibles Nadir and Deep Rover II. A Remus AUV acquired high resolution side scan sonar
-* OET Galapagos 2015.
+* NA064: OET Galapagos 2015. There is multibeam data and seabed picture data
 
 
 
@@ -116,6 +116,16 @@ Correct nav files to use: "D:\NAUTILUS-OET-Galapagos-2015\NA064\processed\dive_r
 sampled  dive resampled to 1 second intervals, with depth. 
 
 
+
+## Seabed pictures 
+
+Seabed pictures are aggregated from the following cruises and sampling methods:
+
+* OET Galapagos -NA064 Hercules ROV
+* AL150801 - Nadir HOW
+* MV1007 - TowCam Data
+
+Picture locations are derived from the navigational files and joined based on the picture names (year, mm, dd, hh, mm, ss) and those same columns in the navigational files
 
 ## Data sources in QGIS
 
