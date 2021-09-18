@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Making Maps &#8212; QGIS Quickguide September 13, 2021 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Pictures on a map" href="05_pictures.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section class="tex2jax_ignore mathjax_ignore" id="making-maps">
+<h1>Making Maps<a class="headerlink" href="#making-maps" title="Permalink to this headline">¶</a></h1>
+<p>Making maps in qgis is done using the tool “layout Manager”</p>
+<p>Symbology in qgis lay-out itself</p>
+<p>Right click on layer -&gt; properties -&gt; symbology</p>
+<p>Cartography principles
+layout manager</p>
+<section id="the-layout-manager">
+<h2>The layout manager<a class="headerlink" href="#the-layout-manager" title="Permalink to this headline">¶</a></h2>
+<p>To get to the layout manager from the main QGIS project, click the layout manager button, which will open a new tab, you can either choose a template or create a new layout.</p>
+<img src="../_images/layout_layout_manager.png" alt="layout_layout_manager" style="zoom:48%;" />
+<p>The fornari qgis project has several layout templates of which you can choose one</p>
+<p>[Give a list of all the layout templates in there]</p>
+<p>Each template contains the following items:</p>
+<ul class="simple">
+<li><p>Map</p></li>
+<li><p>Scalebar</p></li>
+<li><p>Legend</p></li>
+<li><p>North arrow</p></li>
+</ul>
+<p>Interacting with the layout and adding items to the map is done by using the item bar on the left. When adding items to the map, they will appear in the “Items” list on the right. Each item has specific properties that can be adjusted in the Item properties box, under “Items”. Make sure that the item you want to adjust is clicked on (=blue), before you can adjust that specific item.</p>
+<img src="../_images/layout_item_itemproperties.png" alt="layout_item_itemproperties" style="zoom:48%;" />
+</section>
+<section id="adjusting-coordinate-grids">
+<h2>Adjusting Coordinate grids<a class="headerlink" href="#adjusting-coordinate-grids" title="Permalink to this headline">¶</a></h2>
+<ol>
+<li><p>Select the Map Item</p></li>
+<li><p>Select in the Item Properties of the map -&gt; Grids</p></li>
+<li><p>There should be 2 grid types set up and enables: The grid that shows ticks every degree and labels them. The other grid shows tick every minute (1degree/60) You can always set up your own grids by clicking the + sign (add new grids).</p>
+<img src="../_images/layout_map_grids.png" alt="Layout Manager: Grids" style="zoom:60%;" />
+</li>
+</ol>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">QGIS Quickguide</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01_intro.html">Getting around the qgis project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_folder_hierarchy.html">Folder structure and data location</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03_data_ingest.html">Importing data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04_data_search.html">Identifying the data in your projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05_pictures.html">Pictures on a map</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Making Maps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#the-layout-manager">The layout manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adjusting-coordinate-grids">Adjusting Coordinate grids</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="05_pictures.html" title="previous chapter">Pictures on a map</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Karen Soenen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/06_cartography.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
