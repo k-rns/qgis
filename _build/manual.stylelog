@@ -1,0 +1,2603 @@
+---------------------------------- page 1 ----------------------------------
+#### DownExpandingContainer('title')
+  StaticGroupedFlowables()
+    Paragraph('QGIS Quickguide documentation', style='title page title')
+         > (0,0,1,0,2) title page title [Sphinx] > DEFAULT
+           (0,0,0,0,2) body [Sphinx] > default
+        SingleStyledText('QGIS Quickguide documentation')
+    Paragraph('Release September 13, 2021', style='title page subtitle')
+         > (0,0,1,0,2) title page subtitle [Sphinx] > title page title
+           (0,0,0,0,2) body [Sphinx] > default
+        SingleStyledText('Release September 13, 2021')
+    Paragraph('Karen Soenen', style='title page author')
+         > (0,0,1,0,2) title page author [Sphinx] > DEFAULT
+           (0,0,0,0,2) body [Sphinx] > default
+        SingleStyledText('Karen Soenen')
+    Paragraph('Sep 19, 2021', style='title page date')
+         > (0,0,1,0,2) title page date [Sphinx] > DEFAULT
+           (0,0,0,0,2) body [Sphinx] > default
+        SingleStyledText('Sep 19, 2021')
+---------------------------------- page i ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Table of Contents', style='front matter section title')
+       > (0,0,1,0,2) front matter section title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Table of Contents')
+        StringField('Table of Contents')
+          SingleStyledText('Table of Contents')
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+    TableOfContentsSection(style='table of contents')
+         > (0,0,1,0,1) table of contents section [Sphinx] > DEFAULT
+           (0,0,0,1,1) chapter [Sphinx] > DEFAULT
+      TableOfContents()   table of contents
+           > (0,0,0,0,2) table of contents [Sphinx] > default
+        TableOfContentsEntry('1	Getting around the qgis projec...')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('1')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1')
+            Tab('	')
+            ReferenceField('Getting around the qgis project')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Getting around the qgis project')
+                MixedStyledText('Getting around the qgis project')
+                  SingleStyledText('Getting around the qgis project')
+            Tab('	')
+            ReferenceField('1')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1')
+        TableOfContentsEntry('1.1	Set-up	1')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('1.1')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1.1')
+            Tab('	')
+            ReferenceField('Set-up')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Set-up')
+                MixedStyledText('Set-up')
+                  SingleStyledText('Set-up')
+            Tab('	')
+            ReferenceField('1')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1')
+        TableOfContentsEntry('1.2	Project properties	1')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('1.2')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1.2')
+            Tab('	')
+            ReferenceField('Project properties')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Project properties')
+                MixedStyledText('Project properties')
+                  SingleStyledText('Project properties')
+            Tab('	')
+            ReferenceField('1')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1')
+        TableOfContentsEntry('1.3	Move around the map	1')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('1.3')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1.3')
+            Tab('	')
+            ReferenceField('Move around the map')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Move around the map')
+                MixedStyledText('Move around the map')
+                  SingleStyledText('Move around the map')
+            Tab('	')
+            ReferenceField('1')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1')
+        TableOfContentsEntry('2	Folder structure and data loca...')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('2')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('2')
+            Tab('	')
+            ReferenceField('Folder structure and data locati...')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Folder structure and data locati...')
+                MixedStyledText('Folder structure and data locati...')
+                  SingleStyledText('Folder structure and data locati...')
+            Tab('	')
+            ReferenceField('3')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('3')
+        TableOfContentsEntry('2.1	Data aggregation	3')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('2.1')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('2.1')
+            Tab('	')
+            ReferenceField('Data aggregation')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Data aggregation')
+                MixedStyledText('Data aggregation')
+                  SingleStyledText('Data aggregation')
+            Tab('	')
+            ReferenceField('3')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('3')
+        TableOfContentsEntry('2.2	Data location	3')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('2.2')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('2.2')
+            Tab('	')
+            ReferenceField('Data location')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Data location')
+                MixedStyledText('Data location')
+                  SingleStyledText('Data location')
+            Tab('	')
+            ReferenceField('3')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('3')
+        TableOfContentsEntry('2.3	Seabed pictures	6')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('2.3')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('2.3')
+            Tab('	')
+            ReferenceField('Seabed pictures')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Seabed pictures')
+                MixedStyledText('Seabed pictures')
+                  SingleStyledText('Seabed pictures')
+            Tab('	')
+            ReferenceField('6')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('6')
+        TableOfContentsEntry('2.4	Data sources in QGIS	6')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('2.4')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('2.4')
+            Tab('	')
+            ReferenceField('Data sources in QGIS')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Data sources in QGIS')
+                MixedStyledText('Data sources in QGIS')
+                  SingleStyledText('Data sources in QGIS')
+            Tab('	')
+            ReferenceField('6')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('6')
+        TableOfContentsEntry('3	Importing data	7')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('3')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('3')
+            Tab('	')
+            ReferenceField('Importing data')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Importing data')
+                MixedStyledText('Importing data')
+                  SingleStyledText('Importing data')
+            Tab('	')
+            ReferenceField('7')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('7')
+        TableOfContentsEntry('3.1	Data Source Manager	7')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('3.1')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('3.1')
+            Tab('	')
+            ReferenceField('Data Source Manager')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Data Source Manager')
+                MixedStyledText('Data Source Manager')
+                  SingleStyledText('Data Source Manager')
+            Tab('	')
+            ReferenceField('7')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('7')
+        TableOfContentsEntry('4	Identifying the data in your p...')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('4')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('4')
+            Tab('	')
+            ReferenceField('Identifying the data in your pro...')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Identifying the data in your pro...')
+                MixedStyledText('Identifying the data in your pro...')
+                  SingleStyledText('Identifying the data in your pro...')
+            Tab('	')
+            ReferenceField('9')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('9')
+        TableOfContentsEntry('5	Pictures on a map	11')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('5')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('5')
+            Tab('	')
+            ReferenceField('Pictures on a map')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Pictures on a map')
+                MixedStyledText('Pictures on a map')
+                  SingleStyledText('Pictures on a map')
+            Tab('	')
+            ReferenceField('11')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('11')
+        TableOfContentsEntry('6	Making Maps	13')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('6')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('6')
+            Tab('	')
+            ReferenceField('Making Maps')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Making Maps')
+                MixedStyledText('Making Maps')
+                  SingleStyledText('Making Maps')
+            Tab('	')
+            ReferenceField('13')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('13')
+        TableOfContentsEntry('6.1	The layout manager	13')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('6.1')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('6.1')
+            Tab('	')
+            ReferenceField('The layout manager')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('The layout manager')
+                MixedStyledText('The layout manager')
+                  SingleStyledText('The layout manager')
+            Tab('	')
+            ReferenceField('13')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('13')
+        TableOfContentsEntry('6.2	Adjusting Coordinate grids	1...')
+             > (0,0,0,1,2) toc level 2 [Sphinx] > table of contents
+            ReferenceField('6.2')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('6.2')
+            Tab('	')
+            ReferenceField('Adjusting Coordinate grids')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Adjusting Coordinate grids')
+                MixedStyledText('Adjusting Coordinate grids')
+                  SingleStyledText('Adjusting Coordinate grids')
+            Tab('	')
+            ReferenceField('13')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('13')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		i')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		i')
+          MixedStyledText('		i')
+            Tab('	')
+            Tab('	')
+            Field('i')
+              SingleStyledText('i')
+---------------------------------- page 1 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 1', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 1')
+        MixedStyledText('Chapter 1')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('1', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('1')
+  Paragraph('Getting around the qgis project', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Getting around the qgis project')
+        MixedStyledText('Getting around the qgis project')
+          MixedStyledText('Getting around the qgis project')
+            SingleStyledText('Getting around the qgis project')
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+    DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        StaticGroupedFlowables(id='%01_intro')   <start_of_file>
+          Section(id='%01_intro#getting-around-the-qgis-project')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Section(id='%01_intro#set-up')   C:2 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <section>
+              Heading('1.1 Set-up')   C:2 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                  MixedStyledText('1.1 ')
+                    SingleStyledText('1.1')
+                    SingleStyledText(' ')
+                  MixedStyledText('Set-up')
+                    MixedStyledText('Set-up')
+                      SingleStyledText('Set-up')
+              Paragraph('A qgis project starts in a folde...')   C:4 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('A qgis project starts in a folde...')
+                    MixedStyledText('A qgis project starts in a folde...')
+                      SingleStyledText('A qgis project starts in a folde...')
+              CodeBlock('```{figure} img/sample-image.png...')   C:8 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <literal_block>
+                   > (1,0,0,0,2) code block [Sphinx] > DEFAULT
+                     (0,0,0,0,1) body [Sphinx] > default
+                  MixedStyledText('```{figure} img/sample-image.png...')
+                    MixedStyledText('```{figure} img/sample-image.png...')
+                      SingleStyledText('```{figure} img/sample-image.png...')
+              Paragraph('Read more ![here](C:/Users/ksoen...')   C:18 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Read more ![here](C:/Users/ksoen...')
+                    MixedStyledText('Read more ![here](C:/Users/ksoen...')
+                      SingleStyledText('Read more ![here](C:/Users/ksoen...')
+              CodeBlock('\n')   C:22 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <literal_block>
+                   > (1,0,0,0,2) code block [Sphinx] > DEFAULT
+                     (0,0,0,0,1) body [Sphinx] > default
+                  MixedStyledText('\n')
+                    MixedStyledText('\n')
+                      Token('\n', type=Token.Text)
+                           > (0,0,0,1,2) (pygments)Token.Text [FriendlyStyle (pygments)] > DEFAULT
+              Paragraph('>')   C:26 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('>')
+                    MixedStyledText('>')
+                      SingleStyledText('>')
+              Paragraph('Before starting with your projec...')   C:28 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Before starting with your projec...')
+                    MixedStyledText('Before starting with your projec...')
+                      SingleStyledText('Before starting with your projec...')
+              Paragraph('The most important panels for th...')   C:30 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('The most important panels for th...')
+                    MixedStyledText('The most important panels for th...')
+                      SingleStyledText('The most important panels for th...')
+            Section(id='%01_intro#project-properties')   C:36 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <section>
+              Heading('1.2 Project properties')   C:36 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                  MixedStyledText('1.2 ')
+                    SingleStyledText('1.2')
+                    SingleStyledText(' ')
+                  MixedStyledText('Project properties')
+                    MixedStyledText('Project properties')
+                      SingleStyledText('Project properties')
+              Paragraph('General project properties, like...')   C:38 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('General project properties, like...')
+                    MixedStyledText('General project properties, like...')
+                      SingleStyledText('General project properties, like...')
+              Paragraph('The project coordinate reference...')   C:44 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('The project coordinate reference...')
+                    MixedStyledText('The project coordinate reference...')
+                      SingleStyledText('The project coordinate reference...')
+            Section(id='%01_intro#move-around-the-map')   C:46 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <section>
+              Heading('1.3 Move around the map')   C:46 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\01_intro.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                  MixedStyledText('1.3 ')
+                    SingleStyledText('1.3')
+                    SingleStyledText(' ')
+                  MixedStyledText('Move around the map')
+                    MixedStyledText('Move around the map')
+                      SingleStyledText('Move around the map')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		1')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		1')
+          MixedStyledText('		1')
+            Tab('	')
+            Tab('	')
+            Field('1')
+              SingleStyledText('1')
+---------------------------------- page 2 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('QGIS Quickguide documentation, R...')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('QGIS Quickguide documentation, R...')
+          MixedStyledText('QGIS Quickguide documentation, R...')
+            Field('QGIS Quickguide documentation')
+              SingleStyledText('QGIS Quickguide documentation')
+            SingleStyledText(', ')
+            Field('Release September 13, 2021')
+              SingleStyledText('Release September 13, 2021')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('2		Chapter 1.  Getting around th...')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('2		Chapter 1.  Getting around th...')
+          MixedStyledText('2		Chapter 1.  Getting around th...')
+            Field('2')
+              SingleStyledText('2')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('1')
+              SingleStyledText('1')
+            SingleStyledText('.  ')
+            Field('Getting around the qgis project')
+              MixedStyledText('Getting around the qgis project')
+                MixedStyledText('Getting around the qgis project')
+                  SingleStyledText('Getting around the qgis project')
+---------------------------------- page 3 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 2', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 2')
+        MixedStyledText('Chapter 2')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('2', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('2')
+  Paragraph('Folder structure and data locati...', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Folder structure and data locati...')
+        MixedStyledText('Folder structure and data locati...')
+          MixedStyledText('Folder structure and data locati...')
+            SingleStyledText('Folder structure and data locati...')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        StaticGroupedFlowables(id='%02_folder_hierarchy')   <start_of_file>
+          Section(id='%02_folder_hierarchy#folder-structure-and-data-location')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Section(id='%02_folder_hierarchy#data-aggregation')   C:3 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+              Heading('2.1 Data aggregation')   C:3 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                  MixedStyledText('2.1 ')
+                    SingleStyledText('2.1')
+                    SingleStyledText(' ')
+                  MixedStyledText('Data aggregation')
+                    MixedStyledText('Data aggregation')
+                      SingleStyledText('Data aggregation')
+              Paragraph('The data in this project is aggr...')   C:5 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('The data in this project is aggr...')
+                    MixedStyledText('The data in this project is aggr...')
+                      SingleStyledText('The data in this project is aggr...')
+              List(style='bulleted')   C:7 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                   > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                ListItem()   C:7 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('DRIFT4: 2007. Side scan sonar da...')   C:7 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('DRIFT4: 2007. Side scan sonar da...')
+                          MixedStyledText('DRIFT4: 2007. Side scan sonar da...')
+                            SingleStyledText('DRIFT4: 2007. Side scan sonar da...')
+                ListItem()   C:8 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('MV: MR1 is a Side scan system to...')   C:8 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('MV: MR1 is a Side scan system to...')
+                          MixedStyledText('MV: MR1 is a Side scan system to...')
+                            SingleStyledText('MV: MR1 is a Side scan system to...')
+                ListItem()   C:9 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('AL15080: Alucia cruise in 2015. ...')   C:9 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('AL15080: Alucia cruise in 2015. ...')
+                          MixedStyledText('AL15080: Alucia cruise in 2015. ...')
+                            SingleStyledText('AL15080: Alucia cruise in 2015. ...')
+                ListItem()   C:10 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('NA064: OET Galapagos 2015. There...')   C:10 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('NA064: OET Galapagos 2015. There...')
+                          MixedStyledText('NA064: OET Galapagos 2015. There...')
+                            SingleStyledText('NA064: OET Galapagos 2015. There...')
+            Section(id='%02_folder_hierarchy#data-location')   C:14 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+              Heading('2.2 Data location')   C:14 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                  MixedStyledText('2.2 ')
+                    SingleStyledText('2.2')
+                    SingleStyledText(' ')
+                  MixedStyledText('Data location')
+                    MixedStyledText('Data location')
+                      SingleStyledText('Data location')
+              Paragraph('The data has been imported from ...')   C:16 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('The data has been imported from ...')
+                    MixedStyledText('The data has been imported from ...')
+                      SingleStyledText('The data has been imported from ...')
+              Section(id='%02_folder_hierarchy#general-outline-galapagos')   C:18 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                Heading('2.2.1 General outline Galapagos')   C:18 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                     > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
+                       (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                    MixedStyledText('2.2.1 ')
+                      SingleStyledText('2.2.1')
+                      SingleStyledText(' ')
+                    MixedStyledText('General outline Galapagos')
+                      MixedStyledText('General outline Galapagos')
+                        SingleStyledText('General outline Galapagos')
+                List(style='bulleted')   C:20 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                     > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                  ListItem()   C:20 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                       x (0,0,1,0,4) bulleted list item
+                    ListItemLabel('•')
+                         > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                           (0,0,0,0,2) list item label [Sphinx] > default
+                        MixedStyledText('•')
+                          SingleStyledText('')
+                          SingleStyledText('•')
+                          SingleStyledText('')
+                    StaticGroupedFlowables()
+                         > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                      Paragraph('D:\DRIFT4-2001-Revelle-Galapagos...')   C:20 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                           > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                             (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                            MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                              SingleStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                  ListItem()   C:21 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                       x (0,0,1,0,4) bulleted list item
+                    ListItemLabel('•')
+                         > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                           (0,0,0,0,2) list item label [Sphinx] > default
+                        MixedStyledText('•')
+                          SingleStyledText('')
+                          SingleStyledText('•')
+                          SingleStyledText('')
+                    StaticGroupedFlowables()
+                         > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                      Paragraph('CRS = EPSG:4326 (WGS84).')   C:21 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                           > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                             (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('CRS = EPSG:4326 (WGS84).')
+                            MixedStyledText('CRS = EPSG:4326 (WGS84).')
+                              SingleStyledText('CRS = EPSG:4326 (WGS84).')
+                  ListItem()   C:22 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                       x (0,0,1,0,4) bulleted list item
+                    ListItemLabel('•')
+                         > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                           (0,0,0,0,2) list item label [Sphinx] > default
+                        MixedStyledText('•')
+                          SingleStyledText('')
+                          SingleStyledText('•')
+                          SingleStyledText('')
+                    StaticGroupedFlowables()
+                         > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                      Paragraph('In order to be able to apply lab...')   C:22 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                           > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                             (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('In order to be able to apply lab...')
+                            MixedStyledText('In order to be able to apply lab...')
+                              SingleStyledText('In order to be able to apply lab...')
+              Section(id='%02_folder_hierarchy#drift4-cruise-2007')   C:25 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                Heading('2.2.2 DRIFT4 cruise, 2007')   C:25 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                     > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
+                       (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                    MixedStyledText('2.2.2 ')
+                      SingleStyledText('2.2.2')
+                      SingleStyledText(' ')
+                    MixedStyledText('DRIFT4 cruise, 2007')
+                      MixedStyledText('DRIFT4 cruise, 2007')
+                        SingleStyledText('DRIFT4 cruise, 2007')
+                Section(id='%02_folder_hierarchy#side-scan-sonar-imagery')   C:27 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  Heading('Side Scan Sonar imagery')   C:27 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                       > (0,0,0,1,2) heading level 4 [Sphinx] > heading level 3
+                         (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                      MixedStyledText('Side Scan Sonar imagery')
+                        MixedStyledText('Side Scan Sonar imagery')
+                          SingleStyledText('Side Scan Sonar imagery')
+                  List(style='bulleted')   C:29 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                       > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                    ListItem()   C:29 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('8m:')   C:29 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('8m:')
+                              MixedStyledText('8m:')
+                                MixedStyledText('8m:', style='emphasis')   C:29 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                                     > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                                  SingleStyledText('8m:')
+                        List(style='bulleted')   C:30 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                             > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                               (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                          ListItem()   C:30 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('D:\DRIFT4-2001-Revelle-Galapagos...')   C:30 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                    MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                      MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...', style='emphasis')   C:30 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                                           > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                                        SingleStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                    ListItem()   C:32 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('16m:')   C:32 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('16m:')
+                              MixedStyledText('16m:')
+                                MixedStyledText('16m:', style='emphasis')   C:32 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                                     > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                                  SingleStyledText('16m:')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		3')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		3')
+          MixedStyledText('		3')
+            Tab('	')
+            Tab('	')
+            Field('3')
+              SingleStyledText('3')
+---------------------------------- page 4 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        (continued) StaticGroupedFlowables(id='%02_folder_hierarchy')   <start_of_file>
+          (continued) Section(id='%02_folder_hierarchy#folder-structure-and-data-location')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            (continued) Section(id='%02_folder_hierarchy#data-location')   C:14 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+              (continued) Section(id='%02_folder_hierarchy#drift4-cruise-2007')   C:25 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                (continued) Section(id='%02_folder_hierarchy#side-scan-sonar-imagery')   C:27 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  (continued) List(style='bulleted')   C:29 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                       > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                    (continued) ListItem()   C:32 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      (continued) StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        List(style='bulleted')   C:34 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                             > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                               (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                          ListItem()   C:34 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('D:\DRIFT4-2001-Revelle-Galapagos...')   C:34 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                    MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                      MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...', style='emphasis')   C:34 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                                           > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                                        SingleStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                          ListItem()   C:35 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('D:\DRIFT4-2001-Revelle-Galapagos...')   C:35 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                    MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                      MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...', style='emphasis')   C:35 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                                           > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                                        SingleStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                    ListItem()   C:37 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('8m and 16m grids together here: ...')   C:37 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('8m and 16m grids together here: ...')
+                              MixedStyledText('8m and 16m grids together here: ...')
+                                SingleStyledText('8m and 16m grids together here: ...')
+                        List(style='bulleted')   C:39 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                             > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                               (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                          ListItem()   C:39 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('The 16m grids are complete (= to...')   C:39 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('The 16m grids are complete (= to...')
+                                    MixedStyledText('The 16m grids are complete (= to...')
+                                      SingleStyledText('The 16m grids are complete (= to...')
+                          ListItem()   C:40 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('The 8m grids are not complete: 4...')   C:40 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('The 8m grids are not complete: 4...')
+                                    MixedStyledText('The 8m grids are not complete: 4...')
+                                      SingleStyledText('The 8m grids are not complete: 4...')
+                              List(style='bulleted')   C:41 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                                   > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                                     (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                                ListItem()   C:41 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                                     x (0,0,1,0,4) bulleted list item
+                                  ListItemLabel('•')
+                                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                         (0,0,0,0,2) list item label [Sphinx] > default
+                                      MixedStyledText('•')
+                                        SingleStyledText('')
+                                        SingleStyledText('•')
+                                        SingleStyledText('')
+                                  StaticGroupedFlowables()
+                                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                                    Paragraph('Here are the missing 8m grids: D...')   C:41 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                           (0,0,0,0,2) body [Sphinx] > default
+                                        MixedStyledText('Here are the missing 8m grids: D...')
+                                          MixedStyledText('Here are the missing 8m grids: D...')
+                                            SingleStyledText('Here are the missing 8m grids: D...')
+                        Paragraph('Bathymetry')   C:43 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('Bathymetry')
+                              MixedStyledText('Bathymetry')
+                                SingleStyledText('Bathymetry')
+                  Paragraph('D:\DRIFT4-2001-Revelle-Galapagos...')   C:45 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                       > (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                        MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                          MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...', style='emphasis')   C:45 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                               > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                            SingleStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                  Paragraph('D:\Galapagos-Bathy-Grids')   C:47 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                       > (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('D:\Galapagos-Bathy-Grids')
+                        MixedStyledText('D:\Galapagos-Bathy-Grids')
+                          MixedStyledText('D:\Galapagos-Bathy-Grids', style='emphasis')   C:47 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                               > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                            SingleStyledText('D:\Galapagos-Bathy-Grids')
+                  List(style='bulleted')   C:49 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                       > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                    ListItem()   C:49 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('Bathymetry around Fernandia:')   C:49 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('Bathymetry around Fernandia:')
+                              MixedStyledText('Bathymetry around Fernandia:')
+                                SingleStyledText('Bathymetry around Fernandia:')
+                        List(style='bulleted')   C:50 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                             > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                               (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                          ListItem()   C:50 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('D:\DRIFT4-2001-Revelle-Galapagos...')   C:50 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                    MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                      MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...', style='emphasis')   C:50 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                                           > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                                        SingleStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                    ListItem()   C:51 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('General bathy maps')   C:51 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('General bathy maps')
+                              MixedStyledText('General bathy maps')
+                                SingleStyledText('General bathy maps')
+                        List(style='bulleted')   C:52 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                             > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                               (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                          ListItem()   C:52 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('D:\DRIFT4-2001-Revelle-Galapagos...')   C:52 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                    MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                                      MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...', style='emphasis')   C:52 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                                           > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                                        SingleStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+                Section(id='%02_folder_hierarchy#dredge-data')   C:54 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  Heading('Dredge data')   C:54 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                       > (0,0,0,1,2) heading level 4 [Sphinx] > heading level 3
+                         (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                      MixedStyledText('Dredge data')
+                        MixedStyledText('Dredge data')
+                          SingleStyledText('Dredge data')
+                  Paragraph('The dredge start and end points ...')   C:56 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                       > (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('The dredge start and end points ...')
+                        MixedStyledText('The dredge start and end points ...')
+                          SingleStyledText('The dredge start and end points ...')
+                          MixedStyledText('D:\DRIFT4-2001-Revelle-Galapagos...', style='emphasis')   C:56 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                               > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                            SingleStyledText('D:\DRIFT4-2001-Revelle-Galapagos...')
+              Section(id='%02_folder_hierarchy#melville-cruise-mv1007-2010')   C:58 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                Heading('2.2.3 Melville cruise MV1007, 20...')   C:58 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                     > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
+                       (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                    MixedStyledText('2.2.3 ')
+                      SingleStyledText('2.2.3')
+                      SingleStyledText(' ')
+                    MixedStyledText('Melville cruise MV1007, 2010')
+                      MixedStyledText('Melville cruise MV1007, 2010')
+                        SingleStyledText('Melville cruise MV1007, 2010')
+                Section(id='%02_folder_hierarchy#side-scan-sonar')   C:60 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  Heading('Side Scan Sonar')   C:60 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                       > (0,0,0,1,2) heading level 4 [Sphinx] > heading level 3
+                         (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                      MixedStyledText('Side Scan Sonar')
+                        MixedStyledText('Side Scan Sonar')
+                          SingleStyledText('Side Scan Sonar')
+                  List(style='bulleted')   C:62 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                       > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                    ListItem()   C:62 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('EM122 - 50m')   C:62 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('EM122 - 50m')
+                              MixedStyledText('EM122 - 50m')
+                                SingleStyledText('EM122 - 50m')
+                        List(style='bulleted')   C:63 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                             > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                               (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                          ListItem()   C:63 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('D:\MV1007-Melville-2010\MV1007-E...')   C:63 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('D:\MV1007-Melville-2010\MV1007-E...')
+                                    MixedStyledText('D:\MV1007-Melville-2010\MV1007-E...')
+                                      SingleStyledText('D:\MV1007-Melville-2010\MV1007-E...')
+                    ListItem()   C:64 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('MR1 - 10m (folders with 50)')   C:64 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('MR1 - 10m (folders with 50)')
+                              MixedStyledText('MR1 - 10m (folders with 50)')
+                                SingleStyledText('MR1 - 10m (folders with 50)')
+                    ListItem()   C:65 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('MR1 - 15m (folders with 100)')   C:65 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('MR1 - 15m (folders with 100)')
+                              MixedStyledText('MR1 - 15m (folders with 100)')
+                                SingleStyledText('MR1 - 15m (folders with 100)')
+                    ListItem()   C:66 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('MR1 - 25m (folders with 200)')   C:66 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('MR1 - 25m (folders with 200)')
+                              MixedStyledText('MR1 - 25m (folders with 200)')
+                                SingleStyledText('MR1 - 25m (folders with 200)')
+                    ListItem()   C:67 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('MR1 - 40m (folders with 400)')   C:67 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('MR1 - 40m (folders with 400)')
+                              MixedStyledText('MR1 - 40m (folders with 400)')
+                                SingleStyledText('MR1 - 40m (folders with 400)')
+                Section(id='%02_folder_hierarchy#bathymetry')   C:69 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  Heading('Bathymetry')   C:69 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                       > (0,0,0,1,2) heading level 4 [Sphinx] > heading level 3
+                         (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                      MixedStyledText('Bathymetry')
+                        MixedStyledText('Bathymetry')
+                          SingleStyledText('Bathymetry')
+                  Paragraph('D:\MV1007-Melville-2010\MV1007-E...')   C:71 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                       > (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('D:\MV1007-Melville-2010\MV1007-E...')
+                        MixedStyledText('D:\MV1007-Melville-2010\MV1007-E...')
+                          MixedStyledText('D:\MV1007-Melville-2010\MV1007-E...', style='emphasis')   C:71 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <emphasis>
+                               > (0,0,1,0,1) emphasis [Sphinx] > DEFAULT
+                            SingleStyledText('D:\MV1007-Melville-2010\MV1007-E...')
+                Section(id='%02_folder_hierarchy#towcam-data')   C:73 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  Heading('TowCam data')   C:73 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                       > (0,0,0,1,2) heading level 4 [Sphinx] > heading level 3
+                         (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                      MixedStyledText('TowCam data')
+                        MixedStyledText('TowCam data')
+                          SingleStyledText('TowCam data')
+                  Paragraph('MV Towcam logs are here: D:\MV10...')   C:75 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                       > (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('MV Towcam logs are here: D:\MV10...')
+                        MixedStyledText('MV Towcam logs are here: D:\MV10...')
+                          SingleStyledText('MV Towcam logs are here: D:\MV10...')
+                  Paragraph('5 minute intervals, but needs to...')   C:77 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                       > (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('5 minute intervals, but needs to...')
+                        MixedStyledText('5 minute intervals, but needs to...')
+                          SingleStyledText('5 minute intervals, but needs to...')
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('QGIS Quickguide documentation, R...')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('QGIS Quickguide documentation, R...')
+          MixedStyledText('QGIS Quickguide documentation, R...')
+            Field('QGIS Quickguide documentation')
+              SingleStyledText('QGIS Quickguide documentation')
+            SingleStyledText(', ')
+            Field('Release September 13, 2021')
+              SingleStyledText('Release September 13, 2021')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('4		Chapter 2.  Folder structure ...')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('4		Chapter 2.  Folder structure ...')
+          MixedStyledText('4		Chapter 2.  Folder structure ...')
+            Field('4')
+              SingleStyledText('4')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('2')
+              SingleStyledText('2')
+            SingleStyledText('.  ')
+            Field('Folder structure and data locati...')
+              MixedStyledText('Folder structure and data locati...')
+                MixedStyledText('Folder structure and data locati...')
+                  SingleStyledText('Folder structure and data locati...')
+---------------------------------- page 5 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        (continued) StaticGroupedFlowables(id='%02_folder_hierarchy')   <start_of_file>
+          (continued) Section(id='%02_folder_hierarchy#folder-structure-and-data-location')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            (continued) Section(id='%02_folder_hierarchy#data-location')   C:14 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+              Section(id='%02_folder_hierarchy#alucia-cruise-al150801-2015')   C:79 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                Heading('2.2.4 Alucia cruise AL150801, 20...')   C:79 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                     > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
+                       (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                    MixedStyledText('2.2.4 ')
+                      SingleStyledText('2.2.4')
+                      SingleStyledText(' ')
+                    MixedStyledText('Alucia cruise AL150801, 2015')
+                      MixedStyledText('Alucia cruise AL150801, 2015')
+                        SingleStyledText('Alucia cruise AL150801, 2015')
+                Paragraph('Divide them up in Islands? Flore...')   C:81 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('Divide them up in Islands? Flore...')
+                      MixedStyledText('Divide them up in Islands? Flore...')
+                        SingleStyledText('Divide them up in Islands? Flore...')
+                Section(id='%02_folder_hierarchy#hull-mounted')   C:83 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  Heading('Hull mounted')   C:83 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                       > (0,0,0,1,2) heading level 4 [Sphinx] > heading level 3
+                         (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                      MixedStyledText('Hull mounted')
+                        MixedStyledText('Hull mounted')
+                          SingleStyledText('Hull mounted')
+                  List(style='bulleted')   C:84 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                       > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                    ListItem()   C:84 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('Hull mounted multibeam Alucia - ...')   C:84 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('Hull mounted multibeam Alucia - ...')
+                              MixedStyledText('Hull mounted multibeam Alucia - ...')
+                                SingleStyledText('Hull mounted multibeam Alucia - ...')
+                        List(style='bulleted')   C:85 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                             > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                               (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                          ListItem()   C:85 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('D:\AL150801-Alucia-2015-Galapago...')   C:85 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('D:\AL150801-Alucia-2015-Galapago...')
+                                    MixedStyledText('D:\AL150801-Alucia-2015-Galapago...')
+                                      SingleStyledText('D:\AL150801-Alucia-2015-Galapago...')
+                          ListItem()   C:86 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('not sure with what this bathymet...')   C:86 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('not sure with what this bathymet...')
+                                    MixedStyledText('not sure with what this bathymet...')
+                                      SingleStyledText('not sure with what this bathymet...')
+                          ListItem()   C:87 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('WGS84')   C:87 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('WGS84')
+                                    MixedStyledText('WGS84')
+                                      SingleStyledText('WGS84')
+                          ListItem()   C:88 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('Singleband pseudocolor')   C:88 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('Singleband pseudocolor')
+                                    MixedStyledText('Singleband pseudocolor')
+                                      SingleStyledText('Singleband pseudocolor')
+                Section(id='%02_folder_hierarchy#remus-bathymetry-1m-to-do')   C:89 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  Heading('Remus bathymetry - 1m - TO DO**')   C:89 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                       > (0,0,0,1,2) heading level 4 [Sphinx] > heading level 3
+                         (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                      MixedStyledText('Remus bathymetry - 1m - TO DO**')
+                        MixedStyledText('Remus bathymetry - 1m - TO DO**')
+                          SingleStyledText('Remus bathymetry - 1m - TO DO**')
+                  List(style='bulleted')   C:90 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                       > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                    ListItem()   C:90 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('D:\AL150801-Alucia-2015-Galapago...')   C:90 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('D:\AL150801-Alucia-2015-Galapago...')
+                              MixedStyledText('D:\AL150801-Alucia-2015-Galapago...')
+                                SingleStyledText('D:\AL150801-Alucia-2015-Galapago...')
+                    ListItem()   C:91 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('Look in the “to WHOI” folders fo...')   C:91 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('Look in the “to WHOI” folders fo...')
+                              MixedStyledText('Look in the “to WHOI” folders fo...')
+                                SingleStyledText('Look in the “to WHOI” folders fo...')
+                    ListItem()   C:92 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('1m resolution?')   C:92 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('1m resolution?')
+                              MixedStyledText('1m resolution?')
+                                SingleStyledText('1m resolution?')
+                    ListItem()   C:93 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('what gregg Kurass produced since...')   C:93 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('what gregg Kurass produced since...')
+                              MixedStyledText('what gregg Kurass produced since...')
+                                SingleStyledText('what gregg Kurass produced since...')
+                    ListItem()   C:94 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('Remus side scan sonar - 0.5m - H...')   C:94 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('Remus side scan sonar - 0.5m - H...')
+                              MixedStyledText('Remus side scan sonar - 0.5m - H...')
+                                SingleStyledText('Remus side scan sonar - 0.5m - H...')
+                        List(style='bulleted')   C:95 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                             > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                               (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                          ListItem()   C:95 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('D:\AL150801-Alucia-2015-Galapago...')   C:95 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('D:\AL150801-Alucia-2015-Galapago...')
+                                    MixedStyledText('D:\AL150801-Alucia-2015-Galapago...')
+                                      SingleStyledText('D:\AL150801-Alucia-2015-Galapago...')
+                          ListItem()   C:96 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('0.5 m resolution?')   C:96 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('0.5 m resolution?')
+                                    MixedStyledText('0.5 m resolution?')
+                                      SingleStyledText('0.5 m resolution?')
+                          ListItem()   C:97 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('for both HR and LR (high and low...')   C:97 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('for both HR and LR (high and low...')
+                                    MixedStyledText('for both HR and LR (high and low...')
+                                      SingleStyledText('for both HR and LR (high and low...')
+                          ListItem()   C:98 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                               x (0,0,1,0,4) bulleted list item
+                            ListItemLabel('•')
+                                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                   (0,0,0,0,2) list item label [Sphinx] > default
+                                MixedStyledText('•')
+                                  SingleStyledText('')
+                                  SingleStyledText('•')
+                                  SingleStyledText('')
+                            StaticGroupedFlowables()
+                                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                              Paragraph('what gregg Kurass produced since...')   C:98 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                     (0,0,0,0,2) body [Sphinx] > default
+                                  MixedStyledText('what gregg Kurass produced since...')
+                                    MixedStyledText('what gregg Kurass produced since...')
+                                      SingleStyledText('what gregg Kurass produced since...')
+                Section(id='%02_folder_hierarchy#nadir-and-deep-rover-ii-dive-tracks')   C:100 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  Heading('Nadir and Deep Rover II dive tra...')   C:100 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                       > (0,0,0,1,2) heading level 4 [Sphinx] > heading level 3
+                         (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                      MixedStyledText('Nadir and Deep Rover II dive tra...')
+                        MixedStyledText('Nadir and Deep Rover II dive tra...')
+                          SingleStyledText('Nadir and Deep Rover II dive tra...')
+                Section(id='%02_folder_hierarchy#nadir-seabed-pictures')   C:102 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                  Heading('Nadir seabed pictures')   C:102 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                       > (0,0,0,1,2) heading level 4 [Sphinx] > heading level 3
+                         (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                      MixedStyledText('Nadir seabed pictures')
+                        MixedStyledText('Nadir seabed pictures')
+                          SingleStyledText('Nadir seabed pictures')
+                  List(style='bulleted')   C:104 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                       > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                    ListItem()   C:104 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('Dives happened with 2 vehicels: ...')   C:104 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('Dives happened with 2 vehicels: ...')
+                              MixedStyledText('Dives happened with 2 vehicels: ...')
+                                SingleStyledText('Dives happened with 2 vehicels: ...')
+                    ListItem()   C:105 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('date, xyz files of those vehicle...')   C:105 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('date, xyz files of those vehicle...')
+                              MixedStyledText('date, xyz files of those vehicle...')
+                                SingleStyledText('date, xyz files of those vehicle...')
+                    ListItem()   C:106 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('Use the .txt files from those fo...')   C:106 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('Use the .txt files from those fo...')
+                              MixedStyledText('Use the .txt files from those fo...')
+                                SingleStyledText('Use the .txt files from those fo...')
+                    ListItem()   C:107 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                        Paragraph('pictures can be found here: D:\A...')   C:107 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                             > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                               (0,0,0,0,2) body [Sphinx] > default
+                            MixedStyledText('pictures can be found here: D:\A...')
+                              MixedStyledText('pictures can be found here: D:\A...')
+                                SingleStyledText('pictures can be found here: D:\A...')
+                    ListItem()   C:108 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                         x (0,0,1,0,4) bulleted list item
+                      ListItemLabel('•')
+                           > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                             (0,0,0,0,2) list item label [Sphinx] > default
+                          MixedStyledText('•')
+                            SingleStyledText('')
+                            SingleStyledText('•')
+                            SingleStyledText('')
+                      StaticGroupedFlowables()
+                           > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+              Section(id='%02_folder_hierarchy#oet-galapagos-2015')   C:110 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+                Heading('2.2.5 OET-Galapagos 2015')   C:110 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                     > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
+                       (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                    MixedStyledText('2.2.5 ')
+                      SingleStyledText('2.2.5')
+                      SingleStyledText(' ')
+                    MixedStyledText('OET-Galapagos 2015')
+                      MixedStyledText('OET-Galapagos 2015')
+                        SingleStyledText('OET-Galapagos 2015')
+                Paragraph('Pictures are here: D:\NAUTILUS-O...')   C:112 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('Pictures are here: D:\NAUTILUS-O...')
+                      MixedStyledText('Pictures are here: D:\NAUTILUS-O...')
+                        SingleStyledText('Pictures are here: D:\NAUTILUS-O...')
+                Paragraph('Correct nav files to use: “D:\NA...')   C:114 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('Correct nav files to use: “D:\NA...')
+                      MixedStyledText('Correct nav files to use: “D:\NA...')
+                        SingleStyledText('Correct nav files to use: “D:\NA...')
+                Paragraph('sampled  dive resampled to 1 sec...')   C:116 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('sampled  dive resampled to 1 sec...')
+                      MixedStyledText('sampled  dive resampled to 1 sec...')
+                        SingleStyledText('sampled  dive resampled to 1 sec...')
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('		QGIS Quickguide documentation,...')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('		QGIS Quickguide documentation,...')
+          MixedStyledText('		QGIS Quickguide documentation,...')
+            Tab('	')
+            Tab('	')
+            Field('QGIS Quickguide documentation')
+              SingleStyledText('QGIS Quickguide documentation')
+            SingleStyledText(', ')
+            Field('Release September 13, 2021')
+              SingleStyledText('Release September 13, 2021')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('2.2.  Data location		5')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('2.2.  Data location		5')
+          MixedStyledText('2.2.  Data location		5')
+            Field('2.2')
+              SingleStyledText('2.2')
+            SingleStyledText('.  ')
+            Field('Data location')
+              MixedStyledText('Data location')
+                MixedStyledText('Data location')
+                  SingleStyledText('Data location')
+            Tab('	')
+            Tab('	')
+            Field('5')
+              SingleStyledText('5')
+---------------------------------- page 6 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        (continued) StaticGroupedFlowables(id='%02_folder_hierarchy')   <start_of_file>
+          (continued) Section(id='%02_folder_hierarchy#folder-structure-and-data-location')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Section(id='%02_folder_hierarchy#seabed-pictures')   C:120 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+              Heading('2.3 Seabed pictures')   C:120 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+              Paragraph('Seabed pictures are aggregated f...')   C:122 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Seabed pictures are aggregated f...')
+                    MixedStyledText('Seabed pictures are aggregated f...')
+                      SingleStyledText('Seabed pictures are aggregated f...')
+              List(style='bulleted')   C:124 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <bullet_list>
+                   > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                ListItem()   C:124 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('OET Galapagos -NA064 Hercules RO...')   C:124 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('OET Galapagos -NA064 Hercules RO...')
+                          MixedStyledText('OET Galapagos -NA064 Hercules RO...')
+                            SingleStyledText('OET Galapagos -NA064 Hercules RO...')
+                ListItem()   C:125 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('AL150801 - Nadir HOW')   C:125 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('AL150801 - Nadir HOW')
+                          MixedStyledText('AL150801 - Nadir HOW')
+                            SingleStyledText('AL150801 - Nadir HOW')
+                ListItem()   C:126 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('MV1007 - TowCam Data')   C:126 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('MV1007 - TowCam Data')
+                          MixedStyledText('MV1007 - TowCam Data')
+                            SingleStyledText('MV1007 - TowCam Data')
+              Paragraph('Picture locations are derived fr...')   C:128 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Picture locations are derived fr...')
+                    MixedStyledText('Picture locations are derived fr...')
+                      SingleStyledText('Picture locations are derived fr...')
+            Section(id='%02_folder_hierarchy#data-sources-in-qgis')   C:130 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <section>
+              Heading('2.4 Data sources in QGIS')   C:130 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                  MixedStyledText('2.4 ')
+                    SingleStyledText('2.4')
+                    SingleStyledText(' ')
+                  MixedStyledText('Data sources in QGIS')
+                    MixedStyledText('Data sources in QGIS')
+                      SingleStyledText('Data sources in QGIS')
+              Paragraph('Right click on the layer to see ...')   C:132 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\02_folder_hierarchy.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Right click on the layer to see ...')
+                    MixedStyledText('Right click on the layer to see ...')
+                      SingleStyledText('Right click on the layer to see ...')
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('QGIS Quickguide documentation, R...')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('QGIS Quickguide documentation, R...')
+          MixedStyledText('QGIS Quickguide documentation, R...')
+            Field('QGIS Quickguide documentation')
+              SingleStyledText('QGIS Quickguide documentation')
+            SingleStyledText(', ')
+            Field('Release September 13, 2021')
+              SingleStyledText('Release September 13, 2021')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('6		Chapter 2.  Folder structure ...')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('6		Chapter 2.  Folder structure ...')
+          MixedStyledText('6		Chapter 2.  Folder structure ...')
+            Field('6')
+              SingleStyledText('6')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('2')
+              SingleStyledText('2')
+            SingleStyledText('.  ')
+            Field('Folder structure and data locati...')
+              MixedStyledText('Folder structure and data locati...')
+                MixedStyledText('Folder structure and data locati...')
+                  SingleStyledText('Folder structure and data locati...')
+---------------------------------- page 7 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 3', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 3')
+        MixedStyledText('Chapter 3')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('3', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('3')
+  Paragraph('Importing data', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Importing data')
+        MixedStyledText('Importing data')
+          MixedStyledText('Importing data')
+            SingleStyledText('Importing data')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        StaticGroupedFlowables(id='%03_data_ingest')   <start_of_file>
+          Section(id='%03_data_ingest#importing-data')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Paragraph('This chapter will discuss the wa...')   C:3 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('This chapter will discuss the wa...')
+                  MixedStyledText('This chapter will discuss the wa...')
+                    SingleStyledText('This chapter will discuss the wa...')
+            Paragraph('Adding data using the “Data Sour...')   C:7 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Adding data using the “Data Sour...')
+                  MixedStyledText('Adding data using the “Data Sour...')
+                    SingleStyledText('Adding data using the “Data Sour...')
+            Section(id='%03_data_ingest#data-source-manager')   C:9 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <section>
+              Heading('3.1 Data Source Manager')   C:9 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                  MixedStyledText('3.1 ')
+                    SingleStyledText('3.1')
+                    SingleStyledText(' ')
+                  MixedStyledText('Data Source Manager')
+                    MixedStyledText('Data Source Manager')
+                      SingleStyledText('Data Source Manager')
+              Section(id='%03_data_ingest#delimited-text')   C:11 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <section>
+                Heading('3.1.1 Delimited text')   C:11 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <title>
+                     > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
+                       (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                    MixedStyledText('3.1.1 ')
+                      SingleStyledText('3.1.1')
+                      SingleStyledText(' ')
+                    MixedStyledText('Delimited text')
+                      MixedStyledText('Delimited text')
+                        SingleStyledText('Delimited text')
+                Paragraph('Apart from rasters, this is the ...')   C:13 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('Apart from rasters, this is the ...')
+                      MixedStyledText('Apart from rasters, this is the ...')
+                        SingleStyledText('Apart from rasters, this is the ...')
+                Paragraph('The format of the file to import...')   C:15 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('The format of the file to import...')
+                      MixedStyledText('The format of the file to import...')
+                        SingleStyledText('The ')
+                        MixedStyledText('format of the file', style='strong')   C:15 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <strong>
+                             > (0,0,1,0,1) strong [Sphinx] > DEFAULT
+                          SingleStyledText('format of the file')
+                        SingleStyledText(' ')
+                        MixedStyledText('to import', style='strong')   C:15 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <strong>
+                             > (0,0,1,0,1) strong [Sphinx] > DEFAULT
+                          SingleStyledText('to import')
+                        SingleStyledText(' is important. It is easiest to ...')
+                        MixedStyledText('.csv or .txt file', style='strong')   C:15 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <strong>
+                             > (0,0,1,0,1) strong [Sphinx] > DEFAULT
+                          SingleStyledText('.csv or .txt file')
+                        SingleStyledText(' that has column headers in the ...')
+                Paragraph('Steps to import a .csv file with...')   C:17 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('Steps to import a .csv file with...')
+                      MixedStyledText('Steps to import a .csv file with...')
+                        SingleStyledText('Steps to import a .csv file with...')
+                List(style='enumerated')   C:19 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <enumerated_list>
+                     > (0,0,1,0,2) enumerated list [Sphinx] > DEFAULT
+                  ListItem()   C:19 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <list_item>
+                       x (0,0,1,0,4) enumerated list item
+                    ListItemLabel('1.')
+                         > (0,0,1,0,6) enumerated list item label [Sphinx] > list item label
+                           (0,0,0,0,2) list item label [Sphinx] > default
+                        MixedStyledText('1.')
+                          SingleStyledText('1')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()
+                         > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                      Paragraph('Data Source Manager -> Delimited...')   C:19 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                           > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                             (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('Data Source Manager -> Delimited...')
+                            MixedStyledText('Data Source Manager -> Delimited...')
+                              SingleStyledText('Data Source Manager -> Delimited...')
+                  ListItem()   C:21 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <list_item>
+                       x (0,0,1,0,4) enumerated list item
+                    ListItemLabel('2.')
+                         > (0,0,1,0,6) enumerated list item label [Sphinx] > list item label
+                           (0,0,0,0,2) list item label [Sphinx] > default
+                        MixedStyledText('2.')
+                          SingleStyledText('2')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()
+                         > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                      Paragraph('Fill in:')   C:21 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                           > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                             (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('Fill in:')
+                            MixedStyledText('Fill in:')
+                              SingleStyledText('Fill in:')
+                      List(style='bulleted')   C:22 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <bullet_list>
+                           > (0,0,1,0,5) nested bulleted list [Sphinx] > bulleted list
+                             (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                        ListItem()   C:22 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('file format:')   C:22 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('file format:')
+                                  MixedStyledText('file format:')
+                                    SingleStyledText('file format:')
+                        ListItem()   C:23 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('Geometry definition: will be the...')   C:23 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('Geometry definition: will be the...')
+                                  MixedStyledText('Geometry definition: will be the...')
+                                    SingleStyledText('Geometry definition: will be the...')
+                        ListItem()   C:24 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('Set the correct coordinate refer...')   C:24 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('Set the correct coordinate refer...')
+                                  MixedStyledText('Set the correct coordinate refer...')
+                                    SingleStyledText('Set the correct coordinate refer...')
+              Section(id='%03_data_ingest#rasters')   C:26 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <section>
+                Heading('3.1.2 Rasters')   C:26 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <title>
+                     > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
+                       (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                    MixedStyledText('3.1.2 ')
+                      SingleStyledText('3.1.2')
+                      SingleStyledText(' ')
+                    MixedStyledText('Rasters')
+                      MixedStyledText('Rasters')
+                        SingleStyledText('Rasters')
+                Paragraph('The easiest format to work with ...')   C:28 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('The easiest format to work with ...')
+                      MixedStyledText('The easiest format to work with ...')
+                        SingleStyledText('The easiest format to work with ...')
+                Paragraph('The easiest way to import raster...')   C:30 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('The easiest way to import raster...')
+                      MixedStyledText('The easiest way to import raster...')
+                        SingleStyledText('The easiest way to import raster...')
+                Paragraph('When doing the drag and drop way...')   C:32 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('When doing the drag and drop way...')
+                      MixedStyledText('When doing the drag and drop way...')
+                        SingleStyledText('When doing the drag and drop way...')
+                Paragraph('It is easiest if the data proces...')   C:34 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('It is easiest if the data proces...')
+                      MixedStyledText('It is easiest if the data proces...')
+                        SingleStyledText('It is easiest if the data proces...')
+              Section(id='%03_data_ingest#vector')   C:36 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <section>
+                Heading('3.1.3 Vector')   C:36 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <title>
+                     > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
+                       (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                    MixedStyledText('3.1.3 ')
+                      SingleStyledText('3.1.3')
+                      SingleStyledText(' ')
+                    MixedStyledText('Vector')
+                      MixedStyledText('Vector')
+                        SingleStyledText('Vector')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		7')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		7')
+          MixedStyledText('		7')
+            Tab('	')
+            Tab('	')
+            Field('7')
+              SingleStyledText('7')
+---------------------------------- page 8 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        (continued) StaticGroupedFlowables(id='%03_data_ingest')   <start_of_file>
+          (continued) Section(id='%03_data_ingest#importing-data')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            (continued) Section(id='%03_data_ingest#data-source-manager')   C:9 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <section>
+              Section(id='%03_data_ingest#setting-the-file-path')   C:38 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <section>
+                Heading('3.1.4 Setting the file path')   C:38 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <title>
+                     > (0,0,0,1,2) heading level 3 [Sphinx] > heading level 2
+                       (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                Paragraph('If a file has been imported into...')   C:40 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('If a file has been imported into...')
+                      MixedStyledText('If a file has been imported into...')
+                        SingleStyledText('If a file has been imported into...')
+                Paragraph('Some data management principles ...')   C:44 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                     > (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('Some data management principles ...')
+                      MixedStyledText('Some data management principles ...')
+                        SingleStyledText('Some data management principles ...')
+                List(style='bulleted')   C:46 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <bullet_list>
+                     > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                  ListItem()   C:46 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <list_item>
+                       x (0,0,1,0,4) bulleted list item
+                    ListItemLabel('•')
+                         > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                           (0,0,0,0,2) list item label [Sphinx] > default
+                        MixedStyledText('•')
+                          SingleStyledText('')
+                          SingleStyledText('•')
+                          SingleStyledText('')
+                    StaticGroupedFlowables()
+                         > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                      Paragraph('imbed the projection system in t...')   C:46 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                           > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                             (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('imbed the projection system in t...')
+                            MixedStyledText('imbed the projection system in t...')
+                              SingleStyledText('imbed the projection system in t...')
+                  ListItem()   C:48 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <list_item>
+                       x (0,0,1,0,4) bulleted list item
+                    ListItemLabel('•')
+                         > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                           (0,0,0,0,2) list item label [Sphinx] > default
+                        MixedStyledText('•')
+                          SingleStyledText('')
+                          SingleStyledText('•')
+                          SingleStyledText('')
+                    StaticGroupedFlowables()
+                         > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                      Paragraph('imbed the resolution in the file...')   C:48 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <paragraph>
+                           > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                             (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('imbed the resolution in the file...')
+                            MixedStyledText('imbed the resolution in the file...')
+                              SingleStyledText('imbed the resolution in the file...')
+                  ListItem()   C:49 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\03_data_ingest.md)   <list_item>
+                       x (0,0,1,0,4) bulleted list item
+                    ListItemLabel('•')
+                         > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                           (0,0,0,0,2) list item label [Sphinx] > default
+                        MixedStyledText('•')
+                          SingleStyledText('')
+                          SingleStyledText('•')
+                          SingleStyledText('')
+                    StaticGroupedFlowables()
+                         > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('QGIS Quickguide documentation, R...')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('QGIS Quickguide documentation, R...')
+          MixedStyledText('QGIS Quickguide documentation, R...')
+            Field('QGIS Quickguide documentation')
+              SingleStyledText('QGIS Quickguide documentation')
+            SingleStyledText(', ')
+            Field('Release September 13, 2021')
+              SingleStyledText('Release September 13, 2021')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('8		Chapter 3.  Importing data')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('8		Chapter 3.  Importing data')
+          MixedStyledText('8		Chapter 3.  Importing data')
+            Field('8')
+              SingleStyledText('8')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('3')
+              SingleStyledText('3')
+            SingleStyledText('.  ')
+            Field('Importing data')
+              MixedStyledText('Importing data')
+                MixedStyledText('Importing data')
+                  SingleStyledText('Importing data')
+---------------------------------- page 9 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 4', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 4')
+        MixedStyledText('Chapter 4')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('4', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('4')
+  Paragraph('Identifying the data in your pro...', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Identifying the data in your pro...')
+        MixedStyledText('Identifying the data in your pro...')
+          MixedStyledText('Identifying the data in your pro...')
+            SingleStyledText('Identifying the data in your pro...')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        StaticGroupedFlowables(id='%04_data_search')   <start_of_file>
+          Section(id='%04_data_search#identifying-the-data-in-your-projects')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\04_data_search.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Paragraph('Identifying can happen on severa...')   C:3 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\04_data_search.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Identifying can happen on severa...')
+                  MixedStyledText('Identifying can happen on severa...')
+                    SingleStyledText('Identifying can happen on severa...')
+            Paragraph('<img')   C:5 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\04_data_search.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('<img')
+                  MixedStyledText('<img')
+                    SingleStyledText('<img')
+            Paragraph('src=”C:\Users\ksoenen\Google Dri...')   C:9 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\04_data_search.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('src=”C:\Users\ksoenen\Google Dri...')
+                  MixedStyledText('src=”C:\Users\ksoenen\Google Dri...')
+                    SingleStyledText('src=”C:\Users\ksoenen\Google Dri...')
+            Paragraph('Using the attribute toolbar and ...')   C:11 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\04_data_search.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Using the attribute toolbar and ...')
+                  MixedStyledText('Using the attribute toolbar and ...')
+                    SingleStyledText('Using the attribute toolbar and ...')
+            Paragraph('The pictures in the project has ...')   C:13 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\04_data_search.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('The pictures in the project has ...')
+                  MixedStyledText('The pictures in the project has ...')
+                    SingleStyledText('The pictures in the project has ...')
+            Paragraph('The attribute table for the pict...')   C:15 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\04_data_search.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('The attribute table for the pict...')
+                  MixedStyledText('The attribute table for the pict...')
+                    SingleStyledText('The attribute table for the pict...')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		9')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		9')
+          MixedStyledText('		9')
+            Tab('	')
+            Tab('	')
+            Field('9')
+              SingleStyledText('9')
+---------------------------------- page 10 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('QGIS Quickguide documentation, R...')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('QGIS Quickguide documentation, R...')
+          MixedStyledText('QGIS Quickguide documentation, R...')
+            Field('QGIS Quickguide documentation')
+              SingleStyledText('QGIS Quickguide documentation')
+            SingleStyledText(', ')
+            Field('Release September 13, 2021')
+              SingleStyledText('Release September 13, 2021')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('10		Chapter 4.  Identifying the ...')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('10		Chapter 4.  Identifying the ...')
+          MixedStyledText('10		Chapter 4.  Identifying the ...')
+            Field('10')
+              SingleStyledText('10')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('4')
+              SingleStyledText('4')
+            SingleStyledText('.  ')
+            Field('Identifying the data in your pro...')
+              MixedStyledText('Identifying the data in your pro...')
+                MixedStyledText('Identifying the data in your pro...')
+                  SingleStyledText('Identifying the data in your pro...')
+---------------------------------- page 11 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 5', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 5')
+        MixedStyledText('Chapter 5')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('5', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('5')
+  Paragraph('Pictures on a map', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Pictures on a map')
+        MixedStyledText('Pictures on a map')
+          MixedStyledText('Pictures on a map')
+            SingleStyledText('Pictures on a map')
+  Paragraph('Chapter 5', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 5')
+        MixedStyledText('Chapter 5')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('5', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('5')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        StaticGroupedFlowables(id='%05_pictures')   <start_of_file>
+          Section(id='%05_pictures#pictures-on-a-map')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\05_pictures.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		11')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		11')
+          MixedStyledText('		11')
+            Tab('	')
+            Tab('	')
+            Field('11')
+              SingleStyledText('11')
+---------------------------------- page 12 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('QGIS Quickguide documentation, R...')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('QGIS Quickguide documentation, R...')
+          MixedStyledText('QGIS Quickguide documentation, R...')
+            Field('QGIS Quickguide documentation')
+              SingleStyledText('QGIS Quickguide documentation')
+            SingleStyledText(', ')
+            Field('Release September 13, 2021')
+              SingleStyledText('Release September 13, 2021')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('12		Chapter 5.  Pictures on a ma...')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('12		Chapter 5.  Pictures on a ma...')
+          MixedStyledText('12		Chapter 5.  Pictures on a ma...')
+            Field('12')
+              SingleStyledText('12')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('5')
+              SingleStyledText('6')
+            SingleStyledText('.  ')
+            Field('Pictures on a map')
+              MixedStyledText('Making Maps')
+                MixedStyledText('Making Maps')
+                  SingleStyledText('Making Maps')
+---------------------------------- page 13 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 6', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 6')
+        MixedStyledText('Chapter 6')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('6', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('6')
+  Paragraph('Making Maps', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Making Maps')
+        MixedStyledText('Making Maps')
+          MixedStyledText('Making Maps')
+            SingleStyledText('Making Maps')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <compound>
+        StaticGroupedFlowables(id='%06_cartography')   <start_of_file>
+          Section(id='%06_cartography#making-maps')   C:1 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Paragraph('Making maps in qgis is done usin...')   C:3 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Making maps in qgis is done usin...')
+                  MixedStyledText('Making maps in qgis is done usin...')
+                    SingleStyledText('Making maps in qgis is done usin...')
+            Paragraph('Symbology in qgis lay-out itself')   C:5 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Symbology in qgis lay-out itself')
+                  MixedStyledText('Symbology in qgis lay-out itself')
+                    SingleStyledText('Symbology in qgis lay-out itself')
+            Paragraph('Right click on layer -> properti...')   C:7 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Right click on layer -> properti...')
+                  MixedStyledText('Right click on layer -> properti...')
+                    SingleStyledText('Right click on layer -> properti...')
+            Paragraph('Cartography principles layout ma...')   C:11 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Cartography principles layout ma...')
+                  MixedStyledText('Cartography principles layout ma...')
+                    SingleStyledText('Cartography principles')
+                    SingleStyledText(' ')
+                    SingleStyledText('layout manager')
+            Section(id='%06_cartography#the-layout-manager')   C:14 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <section>
+              Heading('6.1 The layout manager')   C:14 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                  MixedStyledText('6.1 ')
+                    SingleStyledText('6.1')
+                    SingleStyledText(' ')
+                  MixedStyledText('The layout manager')
+                    MixedStyledText('The layout manager')
+                      SingleStyledText('The layout manager')
+              Paragraph('To get to the layout manager fro...')   C:16 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('To get to the layout manager fro...')
+                    MixedStyledText('To get to the layout manager fro...')
+                      SingleStyledText('To get to the layout manager fro...')
+              Paragraph('The fornari qgis project has sev...')   C:20 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('The fornari qgis project has sev...')
+                    MixedStyledText('The fornari qgis project has sev...')
+                      SingleStyledText('The fornari qgis project has sev...')
+              Paragraph('[Give a list of all the layout t...')   C:22 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('[Give a list of all the layout t...')
+                    MixedStyledText('[Give a list of all the layout t...')
+                      SingleStyledText('[Give a list of all the layout t...')
+              Paragraph('Each template contains the follo...')   C:24 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Each template contains the follo...')
+                    MixedStyledText('Each template contains the follo...')
+                      SingleStyledText('Each template contains the follo...')
+              List(style='bulleted')   C:26 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <bullet_list>
+                   > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                ListItem()   C:26 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('Map')   C:26 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Map')
+                          MixedStyledText('Map')
+                            SingleStyledText('Map')
+                ListItem()   C:27 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('Scalebar')   C:27 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Scalebar')
+                          MixedStyledText('Scalebar')
+                            SingleStyledText('Scalebar')
+                ListItem()   C:28 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('Legend')   C:28 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Legend')
+                          MixedStyledText('Legend')
+                            SingleStyledText('Legend')
+                ListItem()   C:29 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <list_item>
+                     x (0,0,1,0,4) bulleted list item
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('North arrow')   C:29 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('North arrow')
+                          MixedStyledText('North arrow')
+                            SingleStyledText('North arrow')
+              Paragraph('Interacting with the layout and ...')   C:31 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                   > (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Interacting with the layout and ...')
+                    MixedStyledText('Interacting with the layout and ...')
+                      SingleStyledText('Interacting with the layout and ...')
+            Section(id='%06_cartography#adjusting-coordinate-grids')   C:35 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <section>
+              Heading('6.2 Adjusting Coordinate grids')   C:35 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <title>
+                   > (0,0,0,1,2) heading level 2 [Sphinx] > heading level 1
+                     (0,0,0,0,2) other heading levels [Sphinx] > heading level 5
+                  MixedStyledText('6.2 ')
+                    SingleStyledText('6.2')
+                    SingleStyledText(' ')
+                  MixedStyledText('Adjusting Coordinate grids')
+                    MixedStyledText('Adjusting Coordinate grids')
+                      SingleStyledText('Adjusting Coordinate grids')
+              List(style='enumerated')   C:37 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <enumerated_list>
+                   > (0,0,1,0,2) enumerated list [Sphinx] > DEFAULT
+                ListItem()   C:37 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <list_item>
+                     x (0,0,1,0,4) enumerated list item
+                  ListItemLabel('1.')
+                       > (0,0,1,0,6) enumerated list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('1.')
+                        SingleStyledText('1')
+                        SingleStyledText('.')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('Select the Map Item')   C:37 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Select the Map Item')
+                          MixedStyledText('Select the Map Item')
+                            SingleStyledText('Select the Map Item')
+                ListItem()   C:39 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <list_item>
+                     x (0,0,1,0,4) enumerated list item
+                  ListItemLabel('2.')
+                       > (0,0,1,0,6) enumerated list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('2.')
+                        SingleStyledText('2')
+                        SingleStyledText('.')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('Select in the Item Properties of...')   C:39 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Select in the Item Properties of...')
+                          MixedStyledText('Select in the Item Properties of...')
+                            SingleStyledText('Select in the Item Properties of...')
+                ListItem()   C:41 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <list_item>
+                     x (0,0,1,0,4) enumerated list item
+                  ListItemLabel('3.')
+                       > (0,0,1,0,6) enumerated list item label [Sphinx] > list item label
+                         (0,0,0,0,2) list item label [Sphinx] > default
+                      MixedStyledText('3.')
+                        SingleStyledText('3')
+                        SingleStyledText('.')
+                  StaticGroupedFlowables()
+                       > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                    Paragraph('There should be 2 grid types set...')   C:41 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\06_cartography.md)   <paragraph>
+                         > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('There should be 2 grid types set...')
+                          MixedStyledText('There should be 2 grid types set...')
+                            SingleStyledText('There should be 2 grid types set...')
+      List(style='bulleted')   C:27 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <bullet_list>
+           > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+        ListItem()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <list_item>
+             x (0,0,1,0,4) bulleted list item
+          ListItemLabel('•')
+               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                 (0,0,0,0,2) list item label [Sphinx] > default
+              MixedStyledText('•')
+                SingleStyledText('')
+                SingleStyledText('•')
+                SingleStyledText('')
+          StaticGroupedFlowables()
+               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+            Paragraph('genindex')   C:27 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <paragraph>
+                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                   (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('genindex')
+                  MixedStyledText('genindex')
+                    MixedStyledText('genindex')   <inline>
+                      SingleStyledText('genindex')
+        ListItem()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <list_item>
+             x (0,0,1,0,4) bulleted list item
+          ListItemLabel('•')
+               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                 (0,0,0,0,2) list item label [Sphinx] > default
+              MixedStyledText('•')
+                SingleStyledText('')
+                SingleStyledText('•')
+                SingleStyledText('')
+          StaticGroupedFlowables()
+               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+            Paragraph('modindex')   C:28 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <paragraph>
+                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                   (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('modindex')
+                  MixedStyledText('modindex')
+                    MixedStyledText('modindex')   <inline>
+                      SingleStyledText('modindex')
+        ListItem()   C (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <list_item>
+             x (0,0,1,0,4) bulleted list item
+          ListItemLabel('•')
+               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                 (0,0,0,0,2) list item label [Sphinx] > default
+              MixedStyledText('•')
+                SingleStyledText('')
+                SingleStyledText('•')
+                SingleStyledText('')
+          StaticGroupedFlowables()
+               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+            Paragraph('search')   C:29 (\Users\ksoenen\Google Drive (ksoenen@whoi.edu)\Fornari\tutorial_git\source\index.rst)   <paragraph>
+                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                   (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('search')
+                  MixedStyledText('search')
+                    MixedStyledText('search')   <inline>
+                      SingleStyledText('search')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		13')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		13')
+          MixedStyledText('		13')
+            Tab('	')
+            Tab('	')
+            Field('13')
+              SingleStyledText('13')
+---------------------------------- page 15 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+    StaticGroupedFlowables()
+#### ChainedContainer('column2')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		15')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		15')
+          MixedStyledText('		15')
+            Tab('	')
+            Tab('	')
+            Field('15')
+              SingleStyledText('15')
